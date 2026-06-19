@@ -28,8 +28,8 @@ const projectData = [
         description: 'My personal portfolio website built with React and Tailwind CSS.',
         videoUrl: '',
         imageUrl: project7Img,
-        liveUrl: 'https://ashifelahi.netlify.app',
-        repoUrl: 'https://github.com/Deadcoder001/React-Personal-Portfolio.git',
+        liveUrl: '',
+        repoUrl: '',
         tags: ['React', 'Tailwind CSS', 'GSAP', 'Spline', 'Framer Motion', 'Lenis'],
     },
     {
