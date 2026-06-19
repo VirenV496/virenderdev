@@ -4,7 +4,7 @@ import { Highlighter } from "@/components/ui/highlighter";
 
 import project1Img from '../assets/projects/project1.png';
 import project7Img from '../assets/projects/project7.png';
-import project3Img from '../assets/projects/project3.png';
+import project3Img from '../assets/projects/Project3.png';
 // --- Data for the projects ---
 const projectData = [
     {
