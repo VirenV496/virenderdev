@@ -28,7 +28,7 @@ export default function Navbar() {
           href="#home"
           className="text-2xl font-semibold text-white italic tracking-wide hover:text-gray-300 transition-colors"
         >
-          Virender Vishwakarma
+          Virender
         </a>
 
         {/* Navigation Links */}
