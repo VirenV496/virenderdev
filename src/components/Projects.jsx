@@ -6,7 +6,6 @@ import { Highlighter } from "@/components/ui/highlighter";
 import { InteractiveGridPattern } from "@/components/ui/interactive-grid-pattern";
 import { cn } from "@/lib/utils";
 
-
 // --- 1. Import your project images ---
 
 import project1Img from '../assets/projects/project1.png';
