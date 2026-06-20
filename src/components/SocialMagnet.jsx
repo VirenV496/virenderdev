@@ -45,7 +45,7 @@ export default function SocialMagnet() {
   };
 
   return (
-    <div className="fixed bottom-10 left-1/2 z-50 -translate-x-1/2">
+    <div className="fixed bottom-0 left-1/2 z-50 -translate-x-1/2">
       <TooltipProvider>
         <Dock>
           <DockIcon>

@@ -13,8 +13,8 @@ const projectData = [
         // Use your Cloudinary video URL here:
         videoUrl: '',
         imageUrl: project1Img, // optional fallback
-        liveUrl: 'https://github.com/VirenV496/memories_webapp',
-        repoUrl: '#',
+        liveUrl: '',
+        repoUrl: 'https://github.com/VirenV496/memories_webapp',
         tags: ['React','Typescript', 'Node', 'MySQL','Redux'],
     },
     {
@@ -22,8 +22,8 @@ const projectData = [
         description: 'My personal portfolio website built with React and Tailwind CSS.',
         videoUrl: '',
         imageUrl: project7Img,
-        liveUrl: 'https://ashifelahi.netlify.app',
-        repoUrl: 'https://github.com/Deadcoder001/React-Personal-Portfolio.git',
+        liveUrl: 'https://virenderv.netlify.app/',
+        repoUrl: 'https://github.com/VirenV496/virenderdev',
         tags: ['React', 'Tailwind CSS', 'GSAP', 'Spline', 'Framer Motion', 'Lenis'],
     },
     {
@@ -31,9 +31,19 @@ const projectData = [
         description: 'Hackathon Project 24 hour to come up with a solution to a problem statement.',
         videoUrl: '',
         imageUrl: project3Img,
-        liveUrl: 'https://github.com/VirenV496/Hackathon_kaveri_college_winner',
+        liveUrl: '',
         repoUrl: 'https://github.com/VirenV496/Hackathon_kaveri_college_winner',
         tags: ['Javascript', 'HTML CSS', 'Php', 'MySQL'],
+    },
+
+    {
+        title: 'Backend Api Project',
+        description: 'Backend api learning project',
+        videoUrl: '',
+        imageUrl: '',
+        liveUrl: '',
+        repoUrl: 'https://github.com/VirenV496/GameStore.api',
+        tags: ['.Net Core'],
     },
 
 ];

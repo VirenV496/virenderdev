@@ -19,8 +19,8 @@ const projectData = [
         // Use your Cloudinary video URL here:
         videoUrl: '',
         imageUrl: project1Img, // optional fallback
-        liveUrl: 'https://github.com/VirenV496/memories_webapp',
-        repoUrl: '#',
+        liveUrl: '',
+        repoUrl: 'https://github.com/VirenV496/memories_webapp',
         tags: ['React','Typescript', 'Node', 'MySQL','Redux'],
     },
     {
@@ -28,8 +28,8 @@ const projectData = [
         description: 'My personal portfolio website built with React and Tailwind CSS.',
         videoUrl: '',
         imageUrl: project7Img,
-        liveUrl: '',
-        repoUrl: '',
+        liveUrl: 'https://virenderv.netlify.app/',
+        repoUrl: 'https://github.com/VirenV496/virenderdev',
         tags: ['React', 'Tailwind CSS', 'GSAP', 'Spline', 'Framer Motion', 'Lenis'],
     },
     {
@@ -37,7 +37,7 @@ const projectData = [
         description: 'Hackathon Project 24 hour to come up with a solution to a problem statement.',
         videoUrl: '',
         imageUrl: project3Img,
-        liveUrl: 'https://github.com/VirenV496/Hackathon_kaveri_college_winner',
+        liveUrl: '',
         repoUrl: 'https://github.com/VirenV496/Hackathon_kaveri_college_winner',
         tags: ['Javascript', 'HTML CSS', 'Php', 'MySQL'],
     },
@@ -48,7 +48,7 @@ const projectData = [
         videoUrl: '',
         imageUrl: '',
         liveUrl: '',
-        repoUrl: '',
+        repoUrl: 'https://github.com/VirenV496/GameStore.api',
         tags: ['.Net Core'],
     },
 
@@ -105,6 +105,7 @@ const ProjectCard = ({ project }) => (
                     ))}
                 </div>
                 <div className="flex items-center justify-start space-x-3 mt-auto pt-1">
+                {project.liveUrl && project.liveUrl !== '#' && (
                     <a
                         href={project.liveUrl}
                         target="_blank"
@@ -113,6 +114,7 @@ const ProjectCard = ({ project }) => (
                     >
                         Live Demo
                     </a>
+                      )}
                     {project.repoUrl && project.repoUrl !== '#' && (
                         <a
                             href={project.repoUrl}
