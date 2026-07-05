@@ -9,7 +9,7 @@ import project3Img from '../assets/projects/Project3.png';
 const projectData = [
     {
         title: 'Memories Web App',
-        description: 'A memories web application built with React, Typescript, Node.js, and MySQL.',
+        description: 'A memories web application built with React, Typescript, Node.js, and MongoDb.',
         // Use your Cloudinary video URL here:
         videoUrl: '',
         imageUrl: project1Img, // optional fallback
@@ -36,14 +36,15 @@ const projectData = [
         tags: ['Javascript', 'HTML CSS', 'Php', 'MySQL'],
     },
 
+
     {
-        title: 'Backend Api Project',
-        description: 'Backend api learning project',
+        title: 'Full Stack Dot NetCore Project',
+        description: 'FinShark is a comprehensive financial management application built with .NET Core, designed to help users track their expenses, manage budgets, and gain insights into their financial health. The application features a user-friendly interface, secure authentication, and robust data management capabilities.',
         videoUrl: '',
         imageUrl: '',
         liveUrl: '',
-        repoUrl: 'https://github.com/VirenV496/GameStore.api',
-        tags: ['.Net Core'],
+        repoUrl: 'https://github.com/VirenV496/Finshark-Finance-app',
+        tags: ['.Net Core, React JS, SQL Server'],
     },
 
 ];
